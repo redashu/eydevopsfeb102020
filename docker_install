@@ -1,0 +1,18 @@
+#  To install docker
+```
+ sudo   yum    install   docker
+ ```
+ #  to start  docker  
+ ```
+  sudo  systemctl  start  docker
+  sudo  systemctl  status   docker
+  ```
+  # some basic docker commands 
+  ```
+    8  sudo  docker   search   java 
+    9  sudo  docker   search   hadoop
+  14  sudo  docker   images
+   15  sudo  docker   pull  java
+   16  sudo  docker   pull  alpine
+   17  sudo  docker   images
+```
